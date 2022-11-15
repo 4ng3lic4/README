@@ -35,14 +35,14 @@ const questions = [
 
     {
         type: "input",
-        name: "licence",
+        name: "license",
         message: "What lisence is being used (e.g. MIT)? "
     },
 
     {
         type: "input",
-        name: "contributing",
-        message: "What are the names of the contributors?"
+        name: "contributors",
+        message: "What are the names of the contributors for this app?"
     },
 
     {

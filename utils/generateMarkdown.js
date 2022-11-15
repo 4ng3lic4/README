@@ -24,16 +24,27 @@ function generateMarkdown(data) { //paramater defining a function and is a place
   *[contributing](#contributing)
   *[test](#test)
   *[questions](#questions)
-  ${data.contents}
   
   #Installation 
-  ${data.installation}
+ The following necessary dependencies must be installed to run the application:${data.installation}
   #Usage 
-  ${data.usage}
+  In order to use this app, ${data.usage}
+  #License
+  This project is licenced under the ${data.license} licence.
+  ![GitHub licence](http://img.shields.io/badge/licence-MIT-blue.svg)
+  #Contributing
+  Contributors: ${data.contributors}
+  #Tests
+  The folloging commands are needed to run test for this app:${data.test}
+  # Questions
+  The following contact information can be used in case of questions ${data.questions}
   #GitHub 
-  ${data.gitHub}
-  #GitHub 
-  ${data.gitHub}
+  The gitHub user name is${data.gitHub}
+  #Profile
+  The gitHub profile link is${data.gitHubProfileLink}
+  #Email
+  The email is${data.email}
+  
   `;
 }
 
