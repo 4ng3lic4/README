@@ -21,21 +21,63 @@ const questions = [
         name: "contents",
         message: "Table of Contents"
     },
+  
     {
         type: "input",
-        name: "install",
-        message: "What does the user need to install to run this app?"
-    },
+        name: "installation",
+        message: "What are the steps required to install your project??"
+    }, 
     {
         type: "input",
-        name: "directions",
+        name: "usage",
         message: "What are the directions to use this app?"
     },
+
+    {
+        type: "input",
+        name: "licence",
+        message: "What lisence is being used (e.g. MIT)? "
+    },
+
+    {
+        type: "input",
+        name: "contributing",
+        message: "What are the names of the contributors?"
+    },
+
+    {
+        type: "input",
+        name: "test",
+        message: "What commands are needed to test this app?"
+    },
+
+    {
+        type: "input",
+        name: "questions",
+        message: "What is the contact info for inqueries?"
+    },
+
+  
+
     {
         type: "input",
         name: "gitHub",
         message: "What is you GitHub username?"
-    }
+    },
+   
+   
+
+
+    {
+        type: "input",
+        name: "gitHubProfileLink",
+        message: "What is you GitHub Profile Link?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email?"
+    },
 
 ];
 
@@ -43,6 +85,8 @@ const questions = [
 function writeToFile(fileName, data) { 
 
     fs.writeFile(fileName, data, function (err) {
+        //console.log(fileName)
+        //console.log(data)
         if (err) throw err;
         console.log('All done, Thank you!');
       });
@@ -52,8 +96,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
-          console.log(answers.title) ;
-          console.log(answers.description); 
+          //console.log(answers.title) ;
+          //console.log(answers.description); 
           let readmeData = generateMarkdown(answers)
           console.log(readmeData);
           

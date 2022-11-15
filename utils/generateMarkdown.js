@@ -18,7 +18,22 @@ function generateMarkdown(data) { //paramater defining a function and is a place
   #Description
   ${data.description}
   #Table of Contents 
+  *[installation](#installation)
+  *[usage](#usage)
+  *[licence](#licence)
+  *[contributing](#contributing)
+  *[test](#test)
+  *[questions](#questions)
   ${data.contents}
+  
+  #Installation 
+  ${data.installation}
+  #Usage 
+  ${data.usage}
+  #GitHub 
+  ${data.gitHub}
+  #GitHub 
+  ${data.gitHub}
   `;
 }
 
