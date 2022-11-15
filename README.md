@@ -1,7 +1,7 @@
-# Professional README Generator
-  http://github.com/GitHub username/Professional README Generator
+# Professional Readme Generator
+  http://github.com/gitHub user name/Professional Readme Generator
   #Description
-  descrition here
+  created generator through node
   #Table of Contents 
   *[installation](#installation)
   *[usage](#usage)
@@ -11,23 +11,23 @@
   *[questions](#questions)
   
   #Installation 
- The following necessary dependencies must be installed to run the application:
+ The following necessary dependencies must be installed to run the application:steps to install here
   #Usage 
-  In order to use this app, directions here
+  In order to use this app, here direcrions
   #License
-  This project is licenced under the lisence here licence.
+  This project is licenced under the licence used create links here ? licence.
   ![GitHub licence](http://img.shields.io/badge/licence-MIT-blue.svg)
   #Contributing
-  Contributors: controbutors here
+  Contributors: name of controbutors
   #Tests
-  The folloging commands are needed to run test for this app:test here
+  The folloging commands are needed to run test for this app:commands needed
   # Questions
-  The following contact information can be used in case of questions contact info
+  The following contact information can be used in case of questions contact info 
   #GitHub 
-  The gitHub user name isGitHub username
+  The gitHub user name is gitHub user name
   #Profile
-  The gitHub profile link isProfile Link
+  The gitHub profile link isGitHub Profile link
   #Email
-  The email isemail here
+  The email is here gmail
   
   

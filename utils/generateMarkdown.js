@@ -1,11 +1,21 @@
 
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+
+function renderLicenseBadge(license) {
+  let badge = "";
+  // If there is no license, 
+  if (license != "None"){
+    badge = "![Licence Badge](https://shields.io/badge/license-" + license + "-green)";
+  }
+  //return an empty string
+  return badge
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+//function renderLicenseLink(license) {
+  //let licenseLink 
+//}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -39,11 +49,11 @@ function generateMarkdown(data) { //paramater defining a function and is a place
   # Questions
   The following contact information can be used in case of questions ${data.questions}
   #GitHub 
-  The gitHub user name is${data.gitHub}
+  The gitHub user name is ${data.gitHub}
   #Profile
   The gitHub profile link is${data.gitHubProfileLink}
   #Email
-  The email is${data.email}
+  The email is ${data.email}
   
   `;
 }
