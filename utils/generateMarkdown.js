@@ -2,8 +2,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, 
 //return an empty string
-/*function renderLicenseBadge(license) {
-  let badge = "";
+function renderLicenseBadge(license) {
+  let badge = '';
   if (license === 'MIT') {
     badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
   } else if (license === 'Apache 2.0') {
@@ -23,7 +23,7 @@ function renderLicenseLink(license) {
   } else if (license === 'Apache 2.0') {
     licenseLink = 'https://www.apache.org/licenses/LICENSE-2.0'
   } else {
-    licenseLink = ''
+    licenseLink = ""
   }
   return licenseLink;
 }
@@ -33,9 +33,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   //If a license has been selected, create License section with link to license information
-  let licenseSection = '';
+  let licenseSection = ''
   if (license === 'None') {
-    licenseSection =''
+    licenseSection = ''
   } else {
     licenseSection = `license: ${license}`
   }
@@ -43,15 +43,16 @@ return licenseSection;
 
 }
 
-*/
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) { //paramater defining a function and is a placeholder
   return `# ${data.title}
   http://github.com/${data.gitHub}/${data.title}
   
+ ## ${renderLicenseSection(data.license)} 
+ ${renderLicenseBadge(data.license)} 
+ ###  ${renderLicenseLink(data.license)} 
  
-
-
   #Description
 
   ${data.description}
