@@ -10,6 +10,13 @@ const questions = [
         name: "title",
         message: "what is the title of your README?"
     },
+    { //List of license
+        type: "list",
+        name: "license",
+        choices: ["MIT", "Apache 2.0", "None"],
+        message: "Chose the lincense being used from the choices "
+    },
+
     {
         type: "input",
         name: "description",
@@ -21,24 +28,17 @@ const questions = [
         name: "contents",
         message: "Table of Contents"
     },
-  
+
     {
         type: "input",
         name: "installation",
         message: "What are the steps required to install your project?"
-    }, 
+    },
     {
         type: "input",
         name: "usage",
         message: "What are the directions to use this app?"
     },
-
-    {
-        type: "input",
-        name: "license",
-        message: "What lisence is being used (e.g. MIT)? "
-    },
-
     {
         type: "input",
         name: "contributors",
@@ -57,16 +57,11 @@ const questions = [
         message: "What is the contact info for inqueries?"
     },
 
-  
-
     {
         type: "input",
         name: "gitHub",
         message: "What is you GitHub username?"
     },
-   
-   
-
 
     {
         type: "input",
@@ -82,26 +77,26 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { 
+function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, function (err) {
         //console.log(fileName)
         //console.log(data)
         if (err) throw err;
         console.log('All done, Thank you!');
-      });
+    });
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
-          //console.log(answers.title) ;
-          //console.log(answers.description); 
-          let readmeData = generateMarkdown(answers)
-          console.log(readmeData);
-          
-          writeToFile("README.md" , readmeData );
+            //console.log(answers.title) ;
+            //console.log(answers.description); 
+            let readmeData = generateMarkdown(answers)
+            console.log(readmeData);
+
+            writeToFile("README.md", readmeData);
 
         })
 }
