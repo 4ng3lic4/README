@@ -78,9 +78,10 @@ function generateMarkdown(data) { //paramater defining a function and is a place
   ## Usage 
   ### In order to use this app: 
   ### ${data.usage}
-  
-
-  #License
+  ### Watch this video: 
+  ### [Demonstration video](https://watch.screencastify.com/v/Bjdqo4KnfmaNJ5wftfUh)
+ 
+  ## License
   This project is licenced under the ${data.license} licence.
   
   
