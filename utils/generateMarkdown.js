@@ -53,50 +53,52 @@ function generateMarkdown(data) { //paramater defining a function and is a place
 
 
   #Description
+
   ${data.description}
 
-  #Table of Contents 
+  ## Table of Contents 
 
-  *[installation](#installation)
+  ### * [installation](#installation)
   
-  *[usage](#usage)
+  ### * [usage](#usage)
   
-  *[licence](#licence)
+  ### * [licence](#licence)
   
-  *[contributing](#contributing)
+  ### * [contributing](#contributing)
   
-  *[test](#test)
+  ### * [test](#test)
   
-  *[questions](#questions)
+  ### * [questions](#questions)
   
-  #Installation 
- The following necessary dependencies must be installed to run the application: ${data.installation}
+  ## installation 
+  ### The following necessary dependencies must be installed to run the application:
+  ### ${data.installation}
   
- #Usage 
-  In order to use this app, ${data.usage}
+  ## usage 
+  ### In order to use this app: 
+  ### ${data.usage}
   
-  #License
+  #license
   This project is licenced under the ${data.license} licence.
   
   
-  #Contributing
-  Contributors: ${data.contributors}
+  ## contributing
+  ### Contributors: ${data.contributors}
   
-  #Tests
-  The folloging commands are needed to run test for this app:${data.test}
+  ## tests
+  ### The folloging commands are needed to run test for this app:
+  ### ${data.test}
   
-  #Questions
-  The following contact information can be used in case of questions ${data.questions}
+  ## questions
+  ### The following contact information can be used in case of questions ${data.questions}
+  ## email
+  ### The email is ${data.email}
+  ## gitHub 
+  ### The gitHub user name is ${data.gitHub}
   
-  #GitHub 
-  The gitHub user name is ${data.gitHub}
-  
-  #Profile
-  The gitHub profile link is${data.gitHubProfileLink}
-  
-  #Email
-  The email is ${data.email}
-  
+  ## profile
+  ### The gitHub profile link is ${data.gitHubProfileLink}
+
   `;
 }
 
