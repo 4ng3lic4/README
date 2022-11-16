@@ -19,7 +19,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   let licenseLink = '';
   if (license === 'MIT') {
-    licenseLink = 'https://chosealicense.com/licenses/mit/'
+    licenseLink = 'https://choosealicense.com/licenses/mit/'
   } else if (license === 'Apache 2.0') {
     licenseLink = 'https://www.apache.org/licenses/LICENSE-2.0'
   } else {
