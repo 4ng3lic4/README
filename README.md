@@ -1,55 +1,55 @@
-# Professional RERADME Generator
-  http://github.com/4ng3lic4/Professional RERADME Generator
-  
+# Node.js Challenge: Professional README Generator
+
  ## license: MIT 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
- ###  https://chosealicense.com/licenses/mit/ 
+ ###  https://choosealicense.com/licenses/mit/ 
  
-  #Description
+  ## Description
 
-  create a command-line application that dynamically generates a professional README.md file from a user's input
+  This app is a command-line application that accepts user input to create a professional README
 
   ## Table of Contents 
 
-  ### * [installation](#installation)
+  ### * [Installation](#installation)
   
-  ### * [usage](#usage)
+  ### * [Usage](#usage)
   
-  ### * [licence](#licence)
+  ### * [Licence](#licence)
   
-  ### * [contributing](#contributing)
+  ### * [Contributing](#contributing)
   
-  ### * [test](#test)
+  ### * [Test](#test)
   
-  ### * [questions](#questions)
+  ### * [Questions](#questions)
   
-  ## installation 
+  ## Installation 
   ### The following necessary dependencies must be installed to run the application:
-  ### Install Inquirer package
+  ### Inquire Package, file System Module, Utils
   
-  ## usage 
+
+  ## Usage 
   ### In order to use this app: 
-  ### The application will be invoked by using the following command:node index.js
+  ### Enter the project title, enter a description, installation instructions, usage information, contribution guidelines, and test instructions
   
-  #license
+
+  #License
   This project is licenced under the MIT licence.
   
   
-  ## contributing
+  ## Contributing
   ### Contributors: Angelica Ibarra Ochoa
   
-  ## tests
+
+  ## Tests
   ### The folloging commands are needed to run test for this app:
-  ### node index.js
+  ### Node index.js
   
-  ## questions
-  ### The following contact information can be used in case of questions angelica@gmail.com
-  ## email
-  ### The email is angelica@gmail.com
-  ## gitHub 
-  ### The gitHub user name is 4ng3lic4
-  
-  ## profile
-  ### The gitHub profile link is https://github.com/4ng3lic4
+
+  ## Questions
+  ### For any inqueries, you can contact me at either
+  ### GitHub: https://github.com/4ng3lic4
+  ### or 
+  ### by email: ositosviajeros@hotmail.com
+ 
 
   

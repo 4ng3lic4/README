@@ -45,22 +45,11 @@ const questions = [
         message: "What commands are needed to test this app?"
     },
 
-    {
-        type: "input",
-        name: "questions",
-        message: "What is the contact info for inqueries?"
-    },
 
     {
         type: "input",
         name: "gitHub",
         message: "What is you GitHub username?"
-    },
-
-    {
-        type: "input",
-        name: "gitHubProfileLink",
-        message: "What is you GitHub Profile Link?"
     },
     {
         type: "input",

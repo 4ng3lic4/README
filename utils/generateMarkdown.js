@@ -47,58 +47,58 @@ return licenseSection;
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) { //paramater defining a function and is a placeholder
   return `# ${data.title}
-  http://github.com/${data.gitHub}/${data.title}
-  
+
  ## ${renderLicenseSection(data.license)} 
  ${renderLicenseBadge(data.license)} 
  ###  ${renderLicenseLink(data.license)} 
  
-  #Description
+  ## Description
 
   ${data.description}
 
   ## Table of Contents 
 
-  ### * [installation](#installation)
+  ### * [Installation](#installation)
   
-  ### * [usage](#usage)
+  ### * [Usage](#usage)
   
-  ### * [licence](#licence)
+  ### * [Licence](#licence)
   
-  ### * [contributing](#contributing)
+  ### * [Contributing](#contributing)
   
-  ### * [test](#test)
+  ### * [Test](#test)
   
-  ### * [questions](#questions)
+  ### * [Questions](#questions)
   
-  ## installation 
+  ## Installation 
   ### The following necessary dependencies must be installed to run the application:
   ### ${data.installation}
   
-  ## usage 
+
+  ## Usage 
   ### In order to use this app: 
   ### ${data.usage}
   
-  #license
+
+  #License
   This project is licenced under the ${data.license} licence.
   
   
-  ## contributing
+  ## Contributing
   ### Contributors: ${data.contributors}
   
-  ## tests
+
+  ## Tests
   ### The folloging commands are needed to run test for this app:
   ### ${data.test}
   
-  ## questions
-  ### The following contact information can be used in case of questions ${data.questions}
-  ## email
-  ### The email is ${data.email}
-  ## gitHub 
-  ### The gitHub user name is ${data.gitHub}
-  
-  ## profile
-  ### The gitHub profile link is ${data.gitHubProfileLink}
+
+  ## Questions
+  ### For any inqueries, you can contact me at either
+  ### GitHub: https://github.com/${data.gitHub}
+  ### or 
+  ### by email: ${data.email}
+ 
 
   `;
 }
